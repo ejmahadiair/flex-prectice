@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justify Content</title>
+    <style>
+        .conteiner{
+            width: 500px;
+            height: 400px;
+            background-color: #eee;
+            border: 2px solid black;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .item1{
+            background-color: blue;
+        }
+        .item2{
+            background-color: blueviolet;
+            align-self: center;
+        }
+        .item3{
+            background-color: chartreuse;
+        }
+        .item4{
+            background-color: cyan;
+        }
+        .item{
+            padding: 10px;
+            text-align: center;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+        <div class="conteiner">
+            <div class="item item1">One</div>
+            <div class="item item2">Two</div>
+            <div class="item item3">Three</div>
+            <div class="item item4">Four</div>
+        </div>
+</body>
+</html>

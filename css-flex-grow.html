@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Flex Grow</title>
+    <style>
+        .container{
+            background-color: #eee;
+            border: 3px solid black;
+            margin: 50px;
+            padding: 0px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item{
+            padding: 10px;
+            flex-grow: 1;
+            flex-basis: 100px;
+        }
+        .item1{
+            background-color: greenyellow;
+            flex-basis: 200px;
+        }
+        .item2{
+            background-color: hotpink;
+        }
+        .item3{
+            background-color: indigo;
+        }
+        .item4{
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">One</div>
+        <div class="item item2">Two</div>
+        <div class="item item3">Three</div>
+        <div class="item item4">Four</div>
+    </div>
+</body>
+</html>
